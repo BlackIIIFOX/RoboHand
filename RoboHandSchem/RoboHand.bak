@@ -1,0 +1,83 @@
+EESchema Schematic File Version 4
+LIBS:RoboHand-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_ST_STM32F1:STM32F103C8Tx U?
+U 1 1 5BB99066
+P 5600 3600
+F 0 "U?" H 5550 2014 50  0000 C CNN
+F 1 "STM32F103C8Tx" H 5550 1923 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5000 2200 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 5600 3600 50  0001 C CNN
+	1    5600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Motor:Motor_Servo M?
+U 1 1 5BB9910E
+P 3300 2900
+F 0 "M?" H 3631 2965 50  0000 L CNN
+F 1 "Motor_Servo" H 3631 2874 50  0000 L CNN
+F 2 "" H 3300 2710 50  0001 C CNN
+F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 3300 2710 50  0001 C CNN
+	1    3300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Motor:Motor_Servo M?
+U 1 1 5BB991C0
+P 3300 3450
+F 0 "M?" H 3631 3515 50  0000 L CNN
+F 1 "Motor_Servo" H 3631 3424 50  0000 L CNN
+F 2 "" H 3300 3260 50  0001 C CNN
+F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 3300 3260 50  0001 C CNN
+	1    3300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Motor:Motor_Servo M?
+U 1 1 5BB99295
+P 3300 4000
+F 0 "M?" H 3631 4065 50  0000 L CNN
+F 1 "Motor_Servo" H 3631 3974 50  0000 L CNN
+F 2 "" H 3300 3810 50  0001 C CNN
+F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 3300 3810 50  0001 C CNN
+	1    3300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Motor:Motor_Servo M?
+U 1 1 5BB992CD
+P 3300 4600
+F 0 "M?" H 3631 4665 50  0000 L CNN
+F 1 "Motor_Servo" H 3631 4574 50  0000 L CNN
+F 2 "" H 3300 4410 50  0001 C CNN
+F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 3300 4410 50  0001 C CNN
+	1    3300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Motor:Motor_Servo M?
+U 1 1 5BB99316
+P 3300 2350
+F 0 "M?" H 3631 2415 50  0000 L CNN
+F 1 "Motor_Servo" H 3631 2324 50  0000 L CNN
+F 2 "" H 3300 2160 50  0001 C CNN
+F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 3300 2160 50  0001 C CNN
+	1    3300 2350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
